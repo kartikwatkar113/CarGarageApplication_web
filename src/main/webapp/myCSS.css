@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	border-sizing: border-box;
+	background-color: #FFFDD0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.main-content {
+	
+	flex: 1;
+	display: flex;
+	justify-content:  center;
+	align-items: center; 
+}
+
+.login-form {
+	border: 1px solid #ccc;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	width: 100%;
+	max-width: 400px;
+	
+}
+
+.footer {
+	height: 40px;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #E1C16E;
+	width: 100%;
+}
+.fgt{
+
+text-align:center;
+padding:10px;
+
+}
